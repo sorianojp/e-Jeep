@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JeepNi Privacy Policy</title>
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <style>
+      :root {
+        --primary: #0d47a1;
+        --accent: #1a237e;
+        --bg: #f3f7ff;
+        --card: #ffffff;
+        --text: #132033;
+        --muted: #556577;
+        --border: #d8e3f5;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(180deg, var(--bg), #ffffff);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      .wrap {
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 24px 16px 48px;
+      }
+
+      .hero {
+        background: linear-gradient(135deg, var(--primary), var(--accent));
+        color: #ffffff;
+        border-radius: 24px;
+        padding: 28px 24px;
+        box-shadow: 0 18px 42px rgba(13, 71, 161, 0.18);
+      }
+
+      .hero-brand {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        margin-bottom: 14px;
+      }
+
+      .hero-logo {
+        width: 78px;
+        height: 78px;
+        flex: 0 0 auto;
+        object-fit: contain;
+        border-radius: 22px;
+        background: rgba(255, 255, 255, 0.14);
+        padding: 10px;
+        box-shadow: 0 14px 28px rgba(8, 24, 56, 0.2);
+      }
+
+      .hero-copy {
+        min-width: 0;
+      }
+
+      .hero-overline {
+        margin: 0 0 6px;
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.82);
+      }
+
+      .hero h1 {
+        margin: 0 0 8px;
+        font-size: 2rem;
+      }
+
+      .hero p {
+        margin: 0;
+        color: rgba(255, 255, 255, 0.9);
+      }
+
+      .meta {
+        margin-top: 14px;
+        font-size: 0.95rem;
+        color: rgba(255, 255, 255, 0.86);
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 20px;
+        margin-top: 16px;
+      }
+
+      .company-brand {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-top: 18px;
+        padding-top: 18px;
+        border-top: 1px solid var(--border);
+      }
+
+      .company-brand img {
+        width: 74px;
+        height: 74px;
+        flex: 0 0 auto;
+        object-fit: contain;
+      }
+
+      .company-brand p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+
+      h2 {
+        margin: 0 0 10px;
+        font-size: 1.2rem;
+      }
+
+      p {
+        margin: 0 0 12px;
+      }
+
+      p:last-child,
+      ul:last-child {
+        margin-bottom: 0;
+      }
+
+      ul {
+        margin: 0 0 12px 20px;
+        padding: 0;
+      }
+
+      li + li {
+        margin-top: 8px;
+      }
+
+      .footer {
+        margin-top: 18px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      a {
+        color: var(--primary);
+      }
+
+      @media (max-width: 640px) {
+        .hero-brand,
+        .company-brand {
+          align-items: flex-start;
+        }
+
+        .hero {
+          padding: 24px 20px;
+        }
+
+        .hero-logo {
+          width: 64px;
+          height: 64px;
+          border-radius: 18px;
+          padding: 8px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="hero">
+        <div class="hero-brand">
+          <img class="hero-logo" src="assets/logo.png" alt="JeepNi logo" />
+          <div class="hero-copy">
+            <div class="hero-overline">JeepNi</div>
+            <h1>Privacy Policy</h1>
+            <p>
+              This Privacy Policy explains how JeepNi, operated by
+              <strong>ArzaTechnologies</strong>, collects, uses, shares, and
+              protects information when you use the JeepNi mobile application.
+            </p>
+          </div>
+        </div>
+        <div class="meta">Last updated: April 29, 2026</div>
+      </section>
+
+      <section class="card">
+        <h2>1. Scope</h2>
+        <p>
+          This Privacy Policy applies to the JeepNi mobile app and the related
+          services used to operate account access, live map features, and
+          location sharing for students, drivers, and administrators.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>2. Information We Collect</h2>
+        <ul>
+          <li>
+            <strong>Account information:</strong> name, email address, role
+            (student, driver, or admin), and account identifier associated with
+            Firebase Authentication.
+          </li>
+          <li>
+            <strong>Login credentials:</strong> email address and password are
+            used for authentication. The app uses Firebase Authentication for
+            sign-in and account management. The app itself does not store your
+            plaintext password in its own database.
+          </li>
+          <li>
+            <strong>Precise location data:</strong> latitude and longitude when
+            you enable live location sharing in the app.
+          </li>
+          <li>
+            <strong>Location quality and motion data:</strong> accuracy,
+            calculated or device-reported speed, role label, and update
+            timestamps associated with live location updates.
+          </li>
+          <li>
+            <strong>Operational account details:</strong> some driver accounts
+            may be created by an administrator using the driver's name, email
+            address, and assigned role.
+          </li>
+          <li>
+            <strong>Map service requests:</strong> when maps are displayed, map
+            tile requests are sent to third-party map tile providers used by the
+            app.
+          </li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>3. How We Use Information</h2>
+        <ul>
+          <li>To create and manage user accounts.</li>
+          <li>To authenticate users and control access by role.</li>
+          <li>
+            To display live student and driver positions on the map for
+            operational use.
+          </li>
+          <li>
+            To show location freshness, accuracy, and movement-related
+            information such as speed where available.
+          </li>
+          <li>
+            To support admin functions such as driver account creation and live
+            operations oversight.
+          </li>
+          <li>
+            To maintain service reliability, diagnose issues, and protect the
+            app from misuse.
+          </li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>4. When Location Is Collected</h2>
+        <p>
+          JeepNi requests location permission to provide live tracking features.
+          Precise location is collected only when a user enables location
+          sharing or otherwise uses a feature that depends on live location.
+        </p>
+        <p>
+          On Android, the app also uses a foreground location service for live
+          tracking while sharing is active. On iOS, the current app configuration
+          uses location while the app is in use.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>5. Who Can See Your Data Inside the App</h2>
+        <ul>
+          <li><strong>Students</strong> can view live driver locations.</li>
+          <li><strong>Drivers</strong> can view live student locations.</li>
+          <li>
+            <strong>Administrators</strong> can view user profile information and
+            live locations for operational management.
+          </li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>6. Third-Party Services and Sharing</h2>
+        <p>
+          JeepNi uses third-party service providers to operate the app. These
+          providers may process data on our behalf:
+        </p>
+        <ul>
+          <li>
+            <strong>Google Firebase Authentication</strong> for account sign-in
+            and identity management.
+          </li>
+          <li>
+            <strong>Google Firebase Cloud Firestore</strong> for user profiles
+            and live location records.
+          </li>
+          <li>
+            <strong>Map tile providers</strong> including CARTO and OpenStreetMap
+            endpoints used to render map tiles in the app.
+          </li>
+        </ul>
+        <p>
+          We do not sell or rent your personal information. We may disclose
+          information if required by law, legal process, or to protect the
+          rights, safety, and security of the app, its users, or others.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>7. Data Retention</h2>
+        <ul>
+          <li>
+            <strong>Account profile data</strong> is retained while the account
+            remains active in JeepNi.
+          </li>
+          <li>
+            <strong>Live location data</strong> is stored as the user's current
+            location record and updated while location sharing is active.
+          </li>
+          <li>
+            When location sharing is stopped through the app, the app attempts
+            to remove the current live location record.
+          </li>
+          <li>
+            If a session ends unexpectedly, the last location record may remain
+            until it is updated, removed administratively, or otherwise cleaned
+            up.
+          </li>
+          <li>
+            Service providers may retain limited technical logs, backups, or
+            security records for operational and compliance purposes.
+          </li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>8. Security</h2>
+        <p>
+          We use Firebase services, role-based access rules, and platform
+          permission controls to help protect personal data. No system can
+          guarantee absolute security, but we take reasonable steps to protect
+          account and location information used by the app.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>9. Your Choices</h2>
+        <ul>
+          <li>
+            You can choose whether to grant location permission through your
+            device settings.
+          </li>
+          <li>
+            You can stop live location sharing from within the app where that
+            control is available.
+          </li>
+          <li>
+            You may request access, correction, or deletion assistance by
+            contacting us using the contact details below.
+          </li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>10. Children's and Student Use</h2>
+        <p>
+          JeepNi is designed for campus or transport operations involving
+          students, drivers, and administrators. If you believe personal data has
+          been provided inappropriately or without proper authorization, contact
+          us so we can review the request.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>11. Changes to This Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time. When we do, we
+          will update the "Last updated" date above. Continued use of JeepNi
+          after changes take effect means the updated policy will apply.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>12. Contact Us</h2>
+        <p>
+          If you have questions, privacy requests, or concerns about this
+          Privacy Policy or how JeepNi handles information, contact:
+        </p>
+        <p>
+          <strong>ArzaTechnologies</strong><br />
+          Email:
+          <a href="mailto:arzatechnologies@gmail.com"
+            >arzatechnologies@gmail.com</a
+          >
+        </p>
+        <div class="company-brand">
+          <img src="assets/arza-logo.png" alt="ArzaTechnologies logo" />
+          <p>JeepNi is operated and maintained by ArzaTechnologies.</p>
+        </div>
+      </section>
+
+      <p class="footer">
+        This Privacy Policy was drafted to match the current JeepNi codebase and
+        should be reviewed and approved by the app owner before publication.
+      </p>
+    </main>
+  </body>
+</html>
