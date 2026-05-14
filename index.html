@@ -120,6 +120,15 @@
         color: var(--muted);
       }
 
+      .policy-video {
+        display: block;
+        width: 100%;
+        margin-top: 12px;
+        border-radius: 14px;
+        border: 1px solid var(--border);
+        background: #000000;
+      }
+
 
       h2 {
         margin: 0 0 10px;
@@ -272,6 +281,10 @@
           tracking while sharing is active. On iOS, the current app configuration
           uses location while the app is in use.
         </p>
+        <video class="policy-video" controls playsinline preload="metadata">
+          <source src="assets/how-to-share.webm" type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
       </section>
 
       <section class="card">
